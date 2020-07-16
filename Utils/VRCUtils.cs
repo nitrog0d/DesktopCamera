@@ -56,7 +56,7 @@ namespace DesktopCamera.Utils {
         }
 
         public static Player GetPlayer() {
-            return PlayerManager.Method_Public_Static_Player_String_1(APIUser.CurrentUser.id);
+            return PlayerManager.Method_Public_Static_Player_String_0(APIUser.CurrentUser.id);
         }
 
         public static VRCUiManager GetVRCUiManager() {
