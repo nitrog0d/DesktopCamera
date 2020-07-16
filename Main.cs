@@ -302,7 +302,7 @@ namespace DesktopCamera {
                     position = 0;
                     row++;
                 }
-            }
+            } 
 
             var filtersButton = new SingleButton("Filters", "Filters", "Opens the filter menu", 4, 0, cameraMenu);
             filtersButton.setAction((Action)(() => {
