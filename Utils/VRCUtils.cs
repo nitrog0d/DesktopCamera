@@ -64,7 +64,7 @@ namespace DesktopCamera.Utils {
         }
 
         public static void QueueHudMessage(string message) {
-            GetVRCUiManager().Method_Public_Void_String_3(message);
+            GetVRCUiManager().Method_Public_Void_String_Boolean_0(message);
         }
     }
 }
